@@ -1,0 +1,46 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "a collection of simple demps of webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "server": "webpack-dev-server --open",
+    "build": "set NODE_ENV=production && webpack --config ./webpack.production.config.js --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FengJingya/TestN.git"
+  },
+  "author": "Feng Jingya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FengJingya/TestN/issues"
+  },
+  "homepage": "https://github.com/FengJingya/TestN#readme",
+  "devDependencies": {
+    "autoprefixer": "^8.6.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-react-transform": "^3.0.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.9",
+    "html-webpack-plugin": "^3.2.0",
+    "postcss-loader": "^2.1.5",
+    "react-transform-hmr": "^1.0.4",
+    "style-loader": "^0.19.1",
+    "vue-loader": "^8.7.1",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^2.2.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^2.9.7"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "vue": "^2.5.16"
+  }
+}
